@@ -1,0 +1,117 @@
+.navbar {
+  background-color: #ffffff !important;
+  padding: 20px !important;
+  font-size: 18px !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important; /* Subtle shadow for the light theme */
+}
+
+.nav-brand {
+  font-size: 23px !important;
+  margin-left: 10px !important;
+  font-weight: 700 !important;
+  color: #333 !important; /* Dark text for brand name */
+}
+
+.nav {
+  margin-left: 5px !important;
+}
+
+.nav-item {
+  margin-left: 10px !important;
+  transition: 0.3s ease !important;
+  color: #333 !important; /* Dark color for nav items */
+}
+
+.nav-item:hover {
+  transform: translateY(-3px) !important;
+  text-decoration: underline !important;
+  color: #005abb !important; /* Highlight on hover with blue color */
+}
+
+.close-btn {
+  color: #333 !important; /* Dark close button */
+  cursor: pointer !important;
+  margin-inline-end: 6px !important;
+}
+
+.search-form {
+  display: flex !important;
+  align-items: center !important;
+  margin: 10px 0;
+}
+
+.form-input {
+  border-radius: 0 !important;
+  border-top-left-radius: 13px !important;
+  border-bottom-left-radius: 13px !important;
+  padding: 11px !important;
+  margin-left: 13px !important;
+  margin-right: 0px !important;
+  font-size: 18px !important;
+  background-color: #f5f5f5 !important; /* Light background */
+  color: #333 !important; /* Dark text */
+  border: 1px solid #ccc !important; /* Subtle border */
+  outline: 0 !important;
+  margin-top: 0 !important;
+}
+
+.form-input:focus {
+  box-shadow: none !important;
+  border-color: #005abb !important; /* Highlight on focus */
+}
+
+.logo {
+  width: 45px !important;
+}
+
+.search-btn {
+  background-color: #005abb !important;
+  color: white !important;
+  font-weight: 700 !important;
+  border-radius: 0 !important;
+  border-top-right-radius: 13px !important;
+  border-bottom-right-radius: 13px !important;
+  padding: 10px 15px !important;
+  border-color: #323762b7 !important;
+  font-size: 18px !important;
+  margin-right: 10px !important;
+  margin-top: 0 !important;
+}
+
+.search-btn::placeholder {
+  color: #333 !important;
+  opacity: 1; /* Firefox */
+}
+
+.search-btn:hover {
+  background-color: #003d80 !important; /* Darker blue on hover */
+  transition: 0.5s ease !important;
+}
+
+.search-btn:disabled {
+  background-color: #b0c4de !important; /* Lighter color for disabled state */
+}
+
+.date-picker {
+  display: flex;
+  margin-left: 13px;
+}
+
+.date-picker input {
+  border-radius: 13px !important;
+  padding: 11px !important;
+  background-color: #f5f5f5 !important; /* Light background */
+  color: #333 !important;
+  border: 1px solid #ccc !important;
+  outline: 0 !important;
+  width: 150px;
+}
+
+.nav-link.active {
+  color: #005abb !important; /* Blue active links */
+}
+
+
+.navbar-ham-color {
+  background-color: #005abb !important;
+}

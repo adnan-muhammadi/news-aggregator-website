@@ -1,0 +1,65 @@
+/* Custom NewsCard Styles */
+.custom-news-card {
+    border-radius: 12px;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-news-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .news-card-img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+  }
+  
+  .news-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #005abb;
+  }
+  
+  .news-card-description {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .news-card-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    background-color: #005abb;
+    border: none;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .news-card-btn:hover {
+    background-color: #004494;
+    transform: translateY(-2px);
+  }
+  
+  .news-arrow-icon {
+    fill: white;
+    width: 14px;
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .news-card-btn:hover .news-arrow-icon {
+    transform: translateX(4px);
+  }
+  

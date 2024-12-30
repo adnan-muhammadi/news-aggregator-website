@@ -1,0 +1,44 @@
+.error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff4f4; /* Light red background for error */
+    border: 1px solid #ffcccc; /* Soft border for visibility */
+    color: #ff0000; /* Red text to indicate error */
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error-message h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #d8000c; 
+  }
+  
+  .error-message p {
+    font-size: 16px;
+    margin: 0;
+    color: #666666; 
+  }
+  
+  .retry-button {
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .retry-button:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+  }
+  

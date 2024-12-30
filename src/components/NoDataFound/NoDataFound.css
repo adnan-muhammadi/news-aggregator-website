@@ -1,0 +1,32 @@
+/* NoDataFound.css */
+.no-data-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 20px;
+	min-height: 300px;
+	background-color: #f9f9f9; /* Light gray background */
+	border: 1px dashed #ccc; /* Subtle dashed border */
+	border-radius: 10px;
+	color: #555; /* Muted text color */
+  }
+  
+  .no-data-icon {
+	font-size: 50px;
+	color: #007bff; 
+	margin-bottom: 10px;
+  }
+  
+  .no-data-message {
+	font-size: 18px;
+	font-weight: 500;
+	color: #333; 
+  }
+  
+  .no-data-container:hover {
+	background-color: #f0f8ff;
+	border-color: #007bff;
+  }
+  
